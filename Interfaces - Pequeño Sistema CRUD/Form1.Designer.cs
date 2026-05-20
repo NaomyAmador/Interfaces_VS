@@ -48,7 +48,7 @@
             this.Btn_Buscar = new System.Windows.Forms.Button();
             this.Mostrar = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Btn_IrClienteCRUD = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_TablaProducto)).BeginInit();
             this.SuspendLayout();
@@ -232,21 +232,22 @@
             this.label10.TabIndex = 19;
             this.label10.Text = "label10";
             // 
-            // button1
+            // Btn_IrClienteCRUD
             // 
-            this.button1.Location = new System.Drawing.Point(577, 13);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 23);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Btn_IrClienteCRUD.Location = new System.Drawing.Point(577, 13);
+            this.Btn_IrClienteCRUD.Name = "Btn_IrClienteCRUD";
+            this.Btn_IrClienteCRUD.Size = new System.Drawing.Size(85, 23);
+            this.Btn_IrClienteCRUD.TabIndex = 20;
+            this.Btn_IrClienteCRUD.Text = "button1";
+            this.Btn_IrClienteCRUD.UseVisualStyleBackColor = true;
+            this.Btn_IrClienteCRUD.Click += new System.EventHandler(this.Btn_IrClienteCRUD_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(679, 353);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Btn_IrClienteCRUD);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.Mostrar);
             this.Controls.Add(this.Btn_Buscar);
@@ -299,7 +300,7 @@
         private System.Windows.Forms.Button Btn_Buscar;
         private System.Windows.Forms.Button Mostrar;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Btn_IrClienteCRUD;
     }
 }
 

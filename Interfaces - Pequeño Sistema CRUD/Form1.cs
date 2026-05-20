@@ -75,5 +75,12 @@ namespace Interfaces___Pequeño_Sistema_CRUD
             //Método de la Interfaz a utilizar (acción a usar) - Ver Todos los Productos
             DataGridView_TablaProducto.DataSource = productoCRUD.GetAll();
         }
+
+        private void Btn_IrClienteCRUD_Click(object sender, EventArgs e)
+        {
+            Form2 FrmClienteCRUD = new Form2();
+            FrmClienteCRUD.Show();
+            this.Hide();
+        }
     }
 }

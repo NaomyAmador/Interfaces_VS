@@ -48,6 +48,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Btn_IrCProductoCRUD = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_TablaCliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -231,11 +232,22 @@
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
+            // Btn_IrCProductoCRUD
+            // 
+            this.Btn_IrCProductoCRUD.Location = new System.Drawing.Point(581, 12);
+            this.Btn_IrCProductoCRUD.Name = "Btn_IrCProductoCRUD";
+            this.Btn_IrCProductoCRUD.Size = new System.Drawing.Size(85, 23);
+            this.Btn_IrCProductoCRUD.TabIndex = 40;
+            this.Btn_IrCProductoCRUD.Text = "button1";
+            this.Btn_IrCProductoCRUD.UseVisualStyleBackColor = true;
+            this.Btn_IrCProductoCRUD.Click += new System.EventHandler(this.Btn_IrCProductoCRUD_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(679, 351);
+            this.Controls.Add(this.Btn_IrCProductoCRUD);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.Mostrar);
             this.Controls.Add(this.Btn_Buscar);
@@ -287,5 +299,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button Btn_IrCProductoCRUD;
     }
 }

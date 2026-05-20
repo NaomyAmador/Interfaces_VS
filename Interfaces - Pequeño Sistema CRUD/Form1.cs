@@ -29,6 +29,10 @@ namespace Interfaces___Pequeño_Sistema_CRUD
             //Método de la Interfaz a utilizar (acción a usar) - Insertar
             productoCRUD.Save(Producto);
             MessageBox.Show("¡Producto guardado correctamente!");
+            //Limpiar TextBox's
+            TxtBox_Nombre.Text = "";
+            TxtBox_Precio.Text = "";
+            //Ver Tabla SQL
             DataGridView_TablaProducto.DataSource = productoCRUD.GetAll();
         }
 
@@ -42,6 +46,11 @@ namespace Interfaces___Pequeño_Sistema_CRUD
             //Método de la Interfaz a utilizar (acción a usar) - Actualizar
             productoCRUD.Update(Producto);
             MessageBox.Show("¡Producto actualizado sin problemas!");
+            //Limpiar TextBox's
+            TxtBox_ProductoID.Text = "";
+            TxtBox_Nombre.Text = "";
+            TxtBox_Precio.Text = "";
+            //Ver Tabla SQL
             DataGridView_TablaProducto.DataSource = productoCRUD.GetAll();
         }
 
@@ -51,7 +60,10 @@ namespace Interfaces___Pequeño_Sistema_CRUD
             //Método de la Interfaz a utilizar (acción a usar) - Eliminar
             productoCRUD.Delete(ProductoID);
             MessageBox.Show("¡Producto eliminado exitosamente!");
-            DataGridView_TablaProducto.DataSource =productoCRUD.GetAll();
+            //Limpiar TextBox's
+            TxtBox_ProductoID.Text = "";
+            //Ver Tabla SQL
+            DataGridView_TablaProducto.DataSource = productoCRUD.GetAll();
         }
 
         private void Btn_Buscar_Click(object sender, EventArgs e)

@@ -221,7 +221,7 @@
             this.Btn_Actualizar.BackColor = System.Drawing.Color.YellowGreen;
             this.Btn_Actualizar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Actualizar.ForeColor = System.Drawing.Color.White;
-            this.Btn_Actualizar.Location = new System.Drawing.Point(197, 207);
+            this.Btn_Actualizar.Location = new System.Drawing.Point(197, 206);
             this.Btn_Actualizar.Name = "Btn_Actualizar";
             this.Btn_Actualizar.Size = new System.Drawing.Size(128, 30);
             this.Btn_Actualizar.TabIndex = 15;
@@ -234,7 +234,7 @@
             this.Btn_Eliminar.BackColor = System.Drawing.Color.YellowGreen;
             this.Btn_Eliminar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Eliminar.ForeColor = System.Drawing.Color.White;
-            this.Btn_Eliminar.Location = new System.Drawing.Point(197, 241);
+            this.Btn_Eliminar.Location = new System.Drawing.Point(197, 239);
             this.Btn_Eliminar.Name = "Btn_Eliminar";
             this.Btn_Eliminar.Size = new System.Drawing.Size(128, 31);
             this.Btn_Eliminar.TabIndex = 16;
@@ -247,9 +247,9 @@
             this.Btn_Buscar.BackColor = System.Drawing.Color.YellowGreen;
             this.Btn_Buscar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Buscar.ForeColor = System.Drawing.Color.White;
-            this.Btn_Buscar.Location = new System.Drawing.Point(197, 277);
+            this.Btn_Buscar.Location = new System.Drawing.Point(197, 272);
             this.Btn_Buscar.Name = "Btn_Buscar";
-            this.Btn_Buscar.Size = new System.Drawing.Size(128, 29);
+            this.Btn_Buscar.Size = new System.Drawing.Size(128, 34);
             this.Btn_Buscar.TabIndex = 17;
             this.Btn_Buscar.Text = "Buscar";
             this.Btn_Buscar.UseVisualStyleBackColor = false;

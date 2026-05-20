@@ -61,7 +61,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.label10.Location = new System.Drawing.Point(208, 149);
+            this.label10.Location = new System.Drawing.Point(197, 149);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(496, 18);
             this.label10.TabIndex = 39;
@@ -298,7 +298,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label11.Location = new System.Drawing.Point(584, 114);
+            this.label11.Location = new System.Drawing.Point(573, 114);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(125, 27);
             this.label11.TabIndex = 41;

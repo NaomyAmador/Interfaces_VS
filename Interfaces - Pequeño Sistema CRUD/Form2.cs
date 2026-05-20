@@ -23,6 +23,10 @@ namespace Interfaces___Pequeño_Sistema_CRUD
             //Método de la Interfaz a utilizar (acción a usar) - Insertar
             clienteCRUD.Save(Cliente);
             MessageBox.Show("¡Cliente guardado correctamente!");
+            //Limpiar TextBox's
+            TxtBox_Nombre.Text = "";
+            TxtBox_Correo.Text = "";
+            //Ver Tabla SQL
             DataGridView_TablaCliente.DataSource = clienteCRUD.GetAll();
         }
 
@@ -36,6 +40,11 @@ namespace Interfaces___Pequeño_Sistema_CRUD
             //Método de la Interfaz a utilizar (acción a usar) - Actualizar
             clienteCRUD.Update(Cliente);
             MessageBox.Show("¡Cliente actualizado correctamente!");
+            //Limpiar TextBox's
+            TxtBox_ClienteID.Text = "";
+            TxtBox_Nombre.Text = "";
+            TxtBox_Correo.Text = "";
+            //Ver Tabla SQL
             DataGridView_TablaCliente.DataSource = clienteCRUD.GetAll();
         }
 
@@ -46,6 +55,9 @@ namespace Interfaces___Pequeño_Sistema_CRUD
             //Método de la Interfaz a utilizar (acción a usar) - Eliminar
             clienteCRUD.Delete(ClienteID);
             MessageBox.Show("¡Cliente eliminado correctamente!");
+            //Limpiar TextBox's
+            TxtBox_ClienteID.Text = "";
+            //Ver Tabla SQL
             DataGridView_TablaCliente.DataSource = clienteCRUD.GetAll();
         }
 

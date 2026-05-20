@@ -51,6 +51,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Btn_IrCProductoCRUD = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_TablaCliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -197,7 +198,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.BurlyWood;
-            this.label6.Location = new System.Drawing.Point(3, 147);
+            this.label6.Location = new System.Drawing.Point(6, 147);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(165, 18);
             this.label6.TabIndex = 27;
@@ -211,6 +212,7 @@
             this.TxtBox_ClienteID.Name = "TxtBox_ClienteID";
             this.TxtBox_ClienteID.Size = new System.Drawing.Size(140, 23);
             this.TxtBox_ClienteID.TabIndex = 26;
+            this.TxtBox_ClienteID.Text = "Para crear → No Id";
             // 
             // label5
             // 
@@ -218,7 +220,7 @@
             this.label5.Font = new System.Drawing.Font("Century Gothic", 6F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DarkKhaki;
-            this.label5.Location = new System.Drawing.Point(307, 19);
+            this.label5.Location = new System.Drawing.Point(308, 17);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(146, 14);
             this.label5.TabIndex = 25;
@@ -229,7 +231,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(271, 109);
+            this.label4.Location = new System.Drawing.Point(274, 110);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(226, 15);
             this.label4.TabIndex = 24;
@@ -251,7 +253,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(303, 68);
+            this.label2.Location = new System.Drawing.Point(305, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(154, 15);
             this.label2.TabIndex = 22;
@@ -262,7 +264,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label1.Location = new System.Drawing.Point(176, 35);
+            this.label1.Location = new System.Drawing.Point(176, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(410, 34);
             this.label1.TabIndex = 21;
@@ -285,7 +287,7 @@
             this.Btn_IrCProductoCRUD.ForeColor = System.Drawing.Color.White;
             this.Btn_IrCProductoCRUD.Location = new System.Drawing.Point(611, 9);
             this.Btn_IrCProductoCRUD.Name = "Btn_IrCProductoCRUD";
-            this.Btn_IrCProductoCRUD.Size = new System.Drawing.Size(102, 35);
+            this.Btn_IrCProductoCRUD.Size = new System.Drawing.Size(102, 33);
             this.Btn_IrCProductoCRUD.TabIndex = 40;
             this.Btn_IrCProductoCRUD.Text = "Volver ↺";
             this.Btn_IrCProductoCRUD.UseVisualStyleBackColor = false;
@@ -296,11 +298,21 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label11.Location = new System.Drawing.Point(580, 114);
+            this.label11.Location = new System.Drawing.Point(584, 114);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(125, 27);
             this.label11.TabIndex = 41;
             this.label11.Text = "°❀🐞⋆.ೃ࿔*:･";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Goldenrod;
+            this.label12.Location = new System.Drawing.Point(597, 48);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(0, 40);
+            this.label12.TabIndex = 42;
             // 
             // Form2
             // 
@@ -308,6 +320,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
             this.ClientSize = new System.Drawing.Size(725, 361);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.Btn_IrCProductoCRUD);
             this.Controls.Add(this.label10);
@@ -363,5 +376,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Btn_IrCProductoCRUD;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
     }
 }

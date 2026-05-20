@@ -4,6 +4,6 @@
     {
         public int ClienteID { get; set; }
         public string Nombre { get; set; }
-        public int Correo { get; set; }
+        public string Correo { get; set; }
     }
 }

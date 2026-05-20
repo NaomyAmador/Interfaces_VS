@@ -17,21 +17,21 @@ namespace Interfaces_SistemaCRUD.Repository
             Conexión = new ConexiónBDD();
         }
         //Método para Guardar Producto
-        public void Save(Producto producto)
+        public void Save(Producto Productos)
         {
             using (SqlConnection ConexiónBD = Conexión.GetConnection())
             {
                 string insertarProducto = "INSERT INTO Producto (Nombre, Precio) VALUES (@Nombre, @Precio)";
-                ConexiónBD.Execute(insertarProducto, producto);
+                ConexiónBD.Execute(insertarProducto, Productos);
             }
         }
         //Método para Actualizar Producto
-        public void Update(Producto Producto)
+        public void Update(Producto Productos)
         {
             using (SqlConnection ConexiónBD = Conexión.GetConnection())
             {
                 string ActualizarProducto = @"UPDATE Producto SET Nombre = @Nombre, Precio = @Precio WHERE ProductoID = @ProductoID";
-                ConexiónBD.Execute(ActualizarProducto, Producto);
+                ConexiónBD.Execute(ActualizarProducto, Productos);
             }
         }
         //Método para Eliminar Producto

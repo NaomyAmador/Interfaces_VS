@@ -38,7 +38,7 @@ namespace Interfaces___Pequeño_Sistema_CRUD.Repositories
         {
             using (SqlConnection ConexiónBD = Conexión.GetConnection())
             {
-                string EliminarCliente = "DELETE FROM Cliente WHERE Id = @Id";
+                string EliminarCliente = "DELETE FROM Cliente WHERE ClienteID = @ClienteID";
                 ConexiónBD.Execute(EliminarCliente, new { ClienteID = ClienteID });
             }
         }
@@ -47,7 +47,7 @@ namespace Interfaces___Pequeño_Sistema_CRUD.Repositories
         {
             using (SqlConnection ConexiónBD = Conexión.GetConnection())
             {
-                string BuscarCliente = "SELECT * FROM Cliente WHERE Id = @Id";
+                string BuscarCliente = "SELECT * FROM Cliente WHERE ClienteID = @ClienteID";
                 return ConexiónBD.Query<Cliente>(BuscarCliente, new { ClienteID = ClienteID }).FirstOrDefault();
             }
         }
